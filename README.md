@@ -9,7 +9,7 @@ This repository contains Shell scripts which automatically install packages requ
 As mentioned above, this repository focuses DDC/CI on NVIDIA graphic card; the Shell scripts does not have graphic card detection, thus should not be used on AMD.
 
 ## Changing Linux Repository
-> Reference: https://wiki.debian.org/NvidiaGraphicsDrivers/
+> *Reference: https://wiki.debian.org/NvidiaGraphicsDrivers/*
 
 To install NVIDIA graphic packages to Debian distribution, new components needs to be added on Linux repository located in `/etc/apt/sources.list`; change the component from `main` to `main contrib non-free` and update repository.
 
@@ -18,7 +18,7 @@ $ sudo apt update
 ```
 
 ## NVIDIA Configuration
-> Reference: http://www.ddcutil.com/nvidia/
+> *Reference: http://www.ddcutil.com/nvidia/*
 
 Depending on NVIDIA graphic card, there may require additional modification on NVIDIA parameters. Copy `/usr/share/X11/xorg.conf.d/` directory to `/etc/X11` and modify `90-nvidia_i2c.conf` file as shown below:
 ```
