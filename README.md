@@ -1,7 +1,8 @@
 ---
-layout: repo
-author: GKO95
+layout: post
 title: DDC/CI: Debian Setup
+toc: false
+comment: false
 ---
 # DDC/CI: Debian Setup
 This repository contains Shell scripts which automatically install packages required to run DDC/CI software for NVIDIA GPU. DDC/CI packages introduced in this repository are as follows:
